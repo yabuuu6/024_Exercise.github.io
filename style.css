@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to bottom, rgb(147, 241, 255), rgb(101, 112, 238)); /* Gradien linear dari atas ke bawah */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bingkai {
+    background: white; /* Warna latar belakang bingkai */
+    padding: 15px;
+    border: 0px solid black;
+    text-align: center;
+    width: 80%; /* Menetapkan lebar bingkai */
+    max-width: 500px; /* Maksimum lebar bingkai */
+    height: auto; /* Lebar sesuai konten */
+}
+#gambar {
+    transition: opacity 1s ease-in-out; /* Transisi gambar */
+}
+
+.center {
+    text-align: center;
+}
+
+/* CSS untuk tombol */
+button {
+    background-color: #000000; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    padding: 10px 20px; /* Padding tombol */
+    border: none; /* Menghapus border tombol */
+    text-align: center; /* Pusatkan teks di dalam tombol */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; /* Bentuk sudut tombol */
+}
+
+/* Efek warna ketika kursor diarahkan ke tombol */
+button:hover {
+    background-color: #ff0000; /* Warna latar belakang tombol saat kursor diarahkan */
+}
+
+
+
